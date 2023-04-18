@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portfolio Project <a name="about-project"></a>
+# 📖 My Capstone Project <a name="about-project"></a>
 
 This is the Capstone Project 1 for Microverse. The website theme is concert organization.
 

@@ -23,7 +23,7 @@ header {
 }
 
 #homepage {
-  background-image: url(/images/hero-image-mobile.png);
+  background-image: url(../images/hero-image-mobile.png);
   background-repeat: no-repeat;
   height: 90vh;
   background-position: center;
@@ -373,7 +373,7 @@ header {
 .events1 {
   width: 100%;
   height: 40vh;
-  background: url(/images/event1.jpg);
+  background: url(../images/event1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,7 +385,7 @@ header {
 .events2 {
   width: 100%;
   height: 40vh;
-  background: url(/images/event2.jpg);
+  background: url(../images/event2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -411,6 +411,26 @@ header {
 .footer-text {
   width: 70%;
   color: #272a31;
+  font-size: 13px;
+}
+
+.footer-about {
+  padding: 5%;
+  margin-top: -3px;
+  display: flex;
+  flex-direction: row;
+  background-color: #272a31;
+  justify-content: space-between;
+}
+
+.footer-logo-about {
+  width: 25%;
+  color: #fff;
+}
+
+.footer-text-about {
+  width: 70%;
+  color: #fff;
   font-size: 13px;
 }
 
@@ -444,7 +464,7 @@ header {
   }
 
   #homepage {
-    background-image: url(/images/hero-image.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -496,7 +516,7 @@ header {
   .hero-content h1 {
     margin-top: 30px;
     width: 50%;
-    font-size: 35px;
+    font-size: 55px;
   }
 
   .hero-content p {
@@ -609,6 +629,15 @@ header {
   .footer-text {
     width: 70%;
     color: #272a31;
+    font-size: 17px;
+  }
+
+  .footer-logo-about {
+    font-size: 25px;
+  }
+
+  .footer-text-about {
+    width: 70%;
     font-size: 17px;
   }
 
