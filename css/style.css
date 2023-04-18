@@ -388,11 +388,10 @@ header {
   background: url(/images/event2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   box-shadow: inset -100vw -100vh #ec534280;
   display: flex;
 }
-
 
 /* ------------------------------- Footer ----------------------------- */
 
