@@ -88,7 +88,7 @@ header {
   display: flex;
   justify-content: flex-end;
   margin: 5% 30%;
-  padding: 0px 0px;
+  padding: 0 0;
 }
 
 .mobile-menu a {
@@ -102,7 +102,7 @@ header {
   color: #fff;
 }
 
-.hero-content {  
+.hero-content {
   padding: 5%;
 }
 
@@ -135,12 +135,12 @@ header {
   margin-bottom: 0%;
 }
 
-.main-program h2 {  
+.main-program h2 {
   display: inline-block;
   font-family: cocogoose, sans-serif;
   font-weight: 600;
   font-size: 20px;
-  margin: 0px auto;
+  margin: 0 auto;
   margin-bottom: 4%;
   border-bottom: 1px solid #ec5242;
 }
@@ -170,7 +170,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(120,120,120,.4);
+  background-color: rgba(120, 120, 120, 0.4);
   padding: 4% 5%;
 }
 
@@ -183,7 +183,7 @@ header {
 .card-heading {
   display: flex;
   width: 20%;
-  align-items:center;
+  align-items: center;
   font-family: cocogoose, sans-serif;
   color: #ec5242;
   font-weight: 600;
@@ -218,7 +218,7 @@ header {
   font-family: cocogoose, sans-serif;
   font-weight: 600;
   font-size: 24px;
-  margin: 0px auto;
+  margin: 0 auto;
   color: #272a31;
   border-bottom: 1px solid #ec5242;
 }
@@ -272,7 +272,7 @@ header {
   font-family: cocogoose, sans-serif;
   font-weight: 600;
   font-size: 24px;
-  margin: 0px auto;
+  margin: 0 auto;
   color: #d3d3d3;
   border-bottom: 1px solid #ec5242;
 }
@@ -298,7 +298,7 @@ header {
 
 /* ------------------------------- About Us Page ----------------------------- */
 
-.hero-content-about {  
+.hero-content-about {
   padding: 5%;
 }
 
@@ -318,7 +318,7 @@ header {
 }
 
 .our-mission {
-  padding: 5%;  
+  padding: 5%;
   text-align: center;
 }
 
@@ -367,7 +367,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .events1 {
@@ -376,7 +376,7 @@ header {
   background: url(/images/event1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;  
+  background-position: center;
   box-shadow: inset -100vw -100vh #ec534280;
   margin-bottom: 3%;
   display: flex;
@@ -418,10 +418,10 @@ header {
 /* ------------------------------- Desktop Version ----------------------------- */
 
 @media screen and (min-width: 768px) {
-  body{
+  body {
     min-width: 768px;
   }
-  
+
   .mobile-menu {
     display: none;
   }
@@ -468,7 +468,7 @@ header {
   .nav-bar-desktop a {
     text-decoration: none;
     color: #272a31;
-    margin: 0px 20px;
+    margin: 0 20px;
   }
 
   .last-nav-item {
@@ -490,7 +490,7 @@ header {
     list-style-type: none;
   }
 
-  .nav-bar-desktop li {
+  .nav-bar-desktop ul li {
     color: #272a31;
   }
 
@@ -518,7 +518,7 @@ header {
   }
 
   /* ------------------------------- Main Program Section ----------------------------- */
-  
+
   .main-program {
     padding: 5% 10%;
   }
@@ -533,12 +533,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: unset;
-    background-color: rgba(120,120,120,.4);
+    background-color: rgba(120, 120, 120, 0.4);
   }
 
   .card-icon {
     display: flex;
-    margin: 0px auto;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
   }
@@ -548,7 +548,7 @@ header {
     width: 80%;
     align-items: center;
     justify-content: center;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .card-content {
@@ -557,14 +557,14 @@ header {
     padding: 5%;
     align-items: center;
     justify-content: center;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .main-program-button {
     width: unset;
-    display: inline-block;    
+    display: inline-block;
     border-bottom: 1px solid #d3d3d3;
-    padding: 0px 0px;
+    padding: 0 0;
     background-color: unset;
     letter-spacing: 0.05em;
     line-height: 25px;
@@ -606,7 +606,7 @@ header {
   .footer-logo {
     font-size: 25px;
   }
-  
+
   .footer-text {
     width: 70%;
     color: #272a31;
@@ -614,7 +614,7 @@ header {
   }
 
   /* ------------------------------- About Us ----------------------------- */
-  .hero-content-about {  
+  .hero-content-about {
     padding: 5% 15%;
   }
 
@@ -622,7 +622,7 @@ header {
     text-align: center;
     font-size: 40px;
   }
-  
+
   .past-events {
     background-color: #d3d3d3;
     padding: 5% 10%;
@@ -630,7 +630,7 @@ header {
   }
 
   .our-mission {
-    padding: 5% 10%;  
+    padding: 5% 10%;
     text-align: center;
   }
 
@@ -644,9 +644,9 @@ header {
     display: flex;
     width: 48%;
   }
+
   .events2 {
     display: flex;
     width: 48%;
   }
-
 }
