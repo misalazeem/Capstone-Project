@@ -64,7 +64,7 @@ This is the Capstone Project 1 for Microverse. The website theme is concert orga
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://misalazeem.github.io/Microverse---Capstone-Project/"> Here is a link to the live demo of my project</a><br>
+<a href="https://misalazeem.github.io/Capstone-Project/"> Here is a link to the live demo of my project</a><br>
 <a href="https://www.loom.com/share/a7dcffe844484011b99bfbf991e35c65"> Here is a Loom Walkthrough video for my project </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
